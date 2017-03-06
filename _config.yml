@@ -1,5 +1,4 @@
 # Dependencies
-markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
@@ -16,7 +15,10 @@ author:
   name:           'Abhinand'
   url:            http://abhinandh.com
 
-paginate:         10
+paginate:         5
+
+gems:
+  - jekyll-feed
 
 # custom vars
 github:
